@@ -1,0 +1,19 @@
+
+.mkrdb-nav {
+    background-color: #177377 !important;
+    color: white;
+}
+
+.mkrdb-nav-search {
+    min-width: 75% !important;
+}
+
+.mkrdb-btn-outline {
+    color: #0f0f0f;
+    border: 1px solid #0f0f0f;
+}
+
+.mkrdb-btn-outline:hover {
+    color: lime;
+    border: 1px solid lime;
+}
