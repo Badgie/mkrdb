@@ -1,6 +1,6 @@
 
 .mkrdb-nav {
-    background-color: #177377 !important;
+    background-color: var(--primary-color) !important;
     color: white;
 }
 
@@ -9,11 +9,11 @@
 }
 
 .mkrdb-btn-outline {
-    color: #0f0f0f;
-    border: 1px solid #0f0f0f;
+    color: var(--navbar-primary-text-color);
+    border: 1px solid var(--navbar-primary-text-color);
 }
 
 .mkrdb-btn-outline:hover {
-    color: lime;
-    border: 1px solid lime;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
 }
