@@ -1,0 +1,398 @@
+[
+{
+    "model": "core.mkrdbuser",
+    "pk": 2,
+    "fields": {}
+},
+{
+    "model": "core.mkrdbuser",
+    "pk": 3,
+    "fields": {}
+},
+{
+    "model": "core.mkrdbuser",
+    "pk": 4,
+    "fields": {}
+},
+{
+    "model": "core.makermodel",
+    "pk": 3,
+    "fields": {
+        "uploaded_by": 2,
+        "Upload date": "2022-10-11T19:10:56.185Z",
+        "Last edited": "2022-10-11T19:10:56.185Z",
+        "name": "Some model 0",
+        "variant": "3d_model",
+        "description": "data/md/some_model_0.md",
+        "Thumbnail": "data/img/shipit.png"
+    }
+},
+{
+    "model": "core.makermodel",
+    "pk": 4,
+    "fields": {
+        "uploaded_by": 3,
+        "Upload date": "2022-10-11T19:11:21.530Z",
+        "Last edited": "2022-10-11T19:11:21.530Z",
+        "name": "Some model 1",
+        "variant": "3d_model",
+        "description": "data/md/some_model_1.md",
+        "Thumbnail": "data/img/apple.jpg"
+    }
+},
+{
+    "model": "core.makermodel",
+    "pk": 5,
+    "fields": {
+        "uploaded_by": 4,
+        "Upload date": "2022-10-11T19:11:42.910Z",
+        "Last edited": "2022-10-11T19:11:42.910Z",
+        "name": "Test model 2",
+        "variant": "3d_model",
+        "description": "data/md/some_model_0_aqN0wVj.md",
+        "Thumbnail": "data/img/apple_oX5LwCz.jpg"
+    }
+},
+{
+    "model": "core.makermodel",
+    "pk": 6,
+    "fields": {
+        "uploaded_by": 2,
+        "Upload date": "2022-10-11T19:12:02.598Z",
+        "Last edited": "2022-10-11T19:12:02.598Z",
+        "name": "Some model 3",
+        "variant": "3d_model",
+        "description": "data/md/some_model_0_MCU8uE7.md",
+        "Thumbnail": "data/img/shipit_GlVJ9Wp.png"
+    }
+},
+{
+    "model": "core.makermodel",
+    "pk": 7,
+    "fields": {
+        "uploaded_by": 4,
+        "Upload date": "2022-10-11T19:24:32.294Z",
+        "Last edited": "2022-10-11T19:24:32.294Z",
+        "name": "Some stencil 0",
+        "variant": "stencil",
+        "description": "data/md/some_model_1_qVJZWrb.md",
+        "Thumbnail": "data/img/apple_OdUI1Uv.jpg"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 1,
+    "fields": {
+        "file": "data/models/cone.stl",
+        "model": 3,
+        "variant": "model"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 2,
+    "fields": {
+        "file": "data/models/cube.stl",
+        "model": 3,
+        "variant": "model"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 3,
+    "fields": {
+        "file": "data/models/cone.scad",
+        "model": 3,
+        "variant": "source"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 4,
+    "fields": {
+        "file": "data/models/cube.scad",
+        "model": 3,
+        "variant": "source"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 5,
+    "fields": {
+        "file": "data/models/test.py",
+        "model": 3,
+        "variant": "code"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 6,
+    "fields": {
+        "file": "data/models/some_model_0.pdf",
+        "model": 3,
+        "variant": "info"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 7,
+    "fields": {
+        "file": "data/models/sphere.stl",
+        "model": 4,
+        "variant": "model"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 8,
+    "fields": {
+        "file": "data/models/cylinder.stl",
+        "model": 4,
+        "variant": "model"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 9,
+    "fields": {
+        "file": "data/models/sphere_ujXr62w.stl",
+        "model": 5,
+        "variant": "model"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 10,
+    "fields": {
+        "file": "data/models/cylinder.scad",
+        "model": 5,
+        "variant": "source"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 11,
+    "fields": {
+        "file": "data/models/sphere.scad",
+        "model": 6,
+        "variant": "source"
+    }
+},
+{
+    "model": "core.makermodelfile",
+    "pk": 12,
+    "fields": {
+        "file": "data/models/test_lhHcnMU.py",
+        "model": 6,
+        "variant": "code"
+    }
+},
+{
+    "model": "core.makermodelimage",
+    "pk": 1,
+    "fields": {
+        "image": "data/img/fiskars-pande.jpg",
+        "model": 4
+    }
+},
+{
+    "model": "core.makermodelimage",
+    "pk": 2,
+    "fields": {
+        "image": "data/img/shipit_d5EEeXH.png",
+        "model": 5
+    }
+},
+{
+    "model": "core.makermodelimage",
+    "pk": 3,
+    "fields": {
+        "image": "data/img/shipit_w7wKqEo.png",
+        "model": 3
+    }
+},
+{
+    "model": "core.makermodelimage",
+    "pk": 4,
+    "fields": {
+        "image": "data/img/apple_d1NUA1j.jpg",
+        "model": 3
+    }
+},
+{
+    "model": "core.makermodelimage",
+    "pk": 5,
+    "fields": {
+        "image": "data/img/fiskars-pande_ExqU8Xj.jpg",
+        "model": 3
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "model": 4
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "model": 5
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "model": 6
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 4,
+    "fields": {
+        "user": 3,
+        "model": 5
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 5,
+    "fields": {
+        "user": 3,
+        "model": 4
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 6,
+    "fields": {
+        "user": 4,
+        "model": 6
+    }
+},
+{
+    "model": "core.favorite",
+    "pk": 7,
+    "fields": {
+        "user": 4,
+        "model": 7
+    }
+},
+{
+    "model": "core.comment",
+    "pk": 1,
+    "fields": {
+        "commented_by": 2,
+        "commented_on": 4,
+        "content": "nice",
+        "timestamp": "2022-10-11T19:31:27.253Z",
+        "last_edited": "2022-10-11T19:31:27.253Z"
+    }
+},
+{
+    "model": "core.comment",
+    "pk": 2,
+    "fields": {
+        "commented_by": 4,
+        "commented_on": 6,
+        "content": "bruh",
+        "timestamp": "2022-10-11T19:31:32.664Z",
+        "last_edited": "2022-10-11T19:31:32.664Z"
+    }
+},
+{
+    "model": "core.comment",
+    "pk": 3,
+    "fields": {
+        "commented_by": 3,
+        "commented_on": 7,
+        "content": "sick",
+        "timestamp": "2022-10-11T19:31:39.420Z",
+        "last_edited": "2022-10-11T19:31:39.420Z"
+    }
+},
+{
+    "model": "core.comment",
+    "pk": 4,
+    "fields": {
+        "commented_by": 2,
+        "commented_on": 3,
+        "content": "best model ever broseph",
+        "timestamp": "2022-10-11T19:31:53.814Z",
+        "last_edited": "2022-10-11T19:31:53.814Z"
+    }
+},
+{
+    "model": "core.comment",
+    "pk": 5,
+    "fields": {
+        "commented_by": 4,
+        "commented_on": 3,
+        "content": "siiiq",
+        "timestamp": "2022-10-11T19:32:09.522Z",
+        "last_edited": "2022-10-11T19:32:09.523Z"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 1,
+    "fields": {
+        "name": "Some tag 0",
+        "models": [
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Some tag 1",
+        "models": [
+            3,
+            4,
+            7
+        ]
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Some tag 2",
+        "models": [
+            4,
+            5,
+            7
+        ]
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Some tag 3",
+        "models": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "core.tag",
+    "pk": 5,
+    "fields": {
+        "name": "Some tag 4",
+        "models": [
+            3
+        ]
+    }
+}
+]
