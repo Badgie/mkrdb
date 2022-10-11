@@ -88,9 +88,9 @@ STATICFILES_DIRS = (
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # files, images, etc
-MAKER_MODEL_MODEL_FILE_ROOT = ''
-MAKER_MODEL_IMAGE_ROOT = ''
-MAKER_MODEL_DESCRIPTION_MD_ROOT = ''
+MAKER_MODEL_MODEL_FILE_ROOT = 'data/models/'
+MAKER_MODEL_IMAGE_ROOT = 'data/img/'
+MAKER_MODEL_DESCRIPTION_MD_ROOT = 'data/md/'
 
 
 try:
